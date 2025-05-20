@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Oswald:wght@200..700&family=Satisfy&display=swap');
+:root{
+    /* font family */
+    --ff-primary:"roboto", sans-serif;
+    --ff-secondary:"inter", sans-serif;
+    --ff-design:"satisfy", cursive;
+    --ff-brand:"margarine", sans-serif;
+
+    /* colors */
+    --clr-white:#fff;
+    --clr-dark:#333;
+    --clr-grey-1:#102a42;
+    --clr-grey-2:#617d98;
+    --clr-grey-3:#f1f5f8;
+    --clr-primary:#f53b57;
+    --clr-primary-light:#f04660;
+    --clr-secondary:#e9b949;
+}
+
+
+
+
+
+
+.one{
+    width: 100%;
+ 
+}
+.two{
+    padding: 5px;
+    background-color: var(--clr-primary);
+    color:black;
+    width: 100px;
+    margin: 10px;
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    font-family: var(--ff-secondary);
+}
+.three{
+    border:solid black 1px;
+    color: black;
+    box-shadow: 0px 0px 0px white;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    position: relative;
+    left: -10px;
+    bottom: 20px;
+
+}
+.nameerror,.emailerror,.phoneerror{
+        background-color: black;
+        color: red;
+        padding: 3px;
+        border-radius: 2px;
+        
+        display: none;
+        font: bolder;
+        font-size: 10px;
+
+    }
+    .juice{
+        background-color: red;
+        color: black;
+        width: 70px;
+        height: 40px;
+        position: relative;
+        bottom: 40px;
+        left: 20px;
+        padding-top: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+     
+        
+   
+    }
+    .five{
+        color:var(--clr-primary-light);
+        text-decoration: underline;
+     
+        cursor: pointer;
+        position: relative;
+        left: 180px;
+        bottom: 45px;
+    }
+    .meww{
+        width: 20px;
+        position: relative;
+        top: 15px;
+        left: 50px;
+    }
+   
+ 
+.miller{
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+.king{
+    font-family: var(--ff-brand);
+    color: var(--clr-primary);
+}
+.queen{
+    font-family: var(--ff-secondary);
+    color: black;
+    position: relative;
+    bottom: 20px;
+    font-size: 35px;
+}
+
+.kile{
+   width: 100%;
+}
+.jill{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.willer{
+     background-color:rgb(71, 0, 71);
+     width: 450px;
+     padding: 20px;
+     position: relative;
+     left: 450px;
+     bottom: 800px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 100px black;
+     background: transparent;
+     
+     
+   
+}
+.bill{
+    color: white;
+}
+.uill{
+    border: solid black 2px;
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.win{
+    position: relative;
+    left: 500px;
+    bottom: 800px;
+    background-color: rgb(207, 198, 198);
+    width: 400px;
+    color: white;
+    padding: 50px;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px white;
+    
+  
+
+}
+.noll,.moll{
+    border: solid black 2px;
+    width: 300px;
+}
+.moll{
+    margin-top: 20px;
+
+}
+.noll{
+    margin-top: 20px;
+}
+.four{
+    position: relative;
+    left: 180px;
+    bottom: 25px;
+    color: var(--clr-primary);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.vicky{
+    background-color: black;
+    height: 270px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.lill{
+    position: relative;
+    top: 20px;
+    left: 610px;
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    z-index: 1;
+ 
+}
+.lill:hover{
+    text-decoration: underline;
+}
+.noor{
+    padding-top: 50px;
+}
+.moor{
+    padding-top: 10px;
+
+}
+.newly{
+    width: 80px;
+    position: relative;
+    left: 640px;
+    bottom: 35px;
+    z-index: 2;
+  
+  
+}
+.lotus{
+    background-color:rgb(68, 1, 68);
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    left: 480px;
+    bottom: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px black;
+
+}
+.use{
+    width: 100%;
+}
+.lose{
+    position: relative;
+    bottom: 80px;
+}
+.rooot{
+    font-family: var(--ff-brand);
+    background-color: black;
+    color: red;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+    box-shadow: 0px 0px 10px purple;
+  
+
+ 
+}
+.mooot{
+    padding-top: 10px;
+    position: relative;
+    top: 10px;
+}
+.vis{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    padding-top: 3px;
+    font-size: 20px;
+}
